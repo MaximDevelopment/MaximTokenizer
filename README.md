@@ -30,7 +30,7 @@ end)
 TriggerServerEvent("maxim:secured:event", 1000, SecurityToken)
 ```
 
-### ServerSide Event
+### ServerSide Export Check Token
 
 ```lua
 exports['maxim-tokenizer']:checkToken(source, GetCurrentResourceName(), token)
