@@ -40,7 +40,7 @@ exports['maxim-tokenizer']:checkToken(source, GetCurrentResourceName(), token)
 
 ```lua
 RegisterServerEvent("maxim:secured:event", function(geld, token)
-    if exports['maxim-eventprotection']:checkToken(source, GetCurrentResourceName(), token) then
+    if exports['maxim-tokenizer']:checkToken(source, GetCurrentResourceName(), token) then
         print(geld)
     end
 end)
